@@ -1,0 +1,245 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+/*--------------------*/
+.container {
+  background-color: #fcfdff;
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
+}
+.container,
+.header,
+.header-container,
+.btn-container,
+.main-item,
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.header {
+  width: 100%;
+  background: linear-gradient(229.32deg, #6888ff 12.77%, #5e80ff 73.11%);
+  color: #ffffff;
+}
+
+.header-container,
+.main-container {
+  width: 70%;
+  max-width: 1440px;
+  align-items: center;
+}
+
+.text-about {
+  margin-top: 91px;
+  font-family: "Roboto";
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.text-header {
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 60px;
+  margin-top: 16px;
+  text-align: center;
+}
+.text-header span {
+  font-weight: 500;
+}
+
+.text-description {
+  max-width: 50%;
+  margin-top: 28px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 29px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.btn-container {
+  flex-direction: row;
+}
+.button {
+  display: block;
+  margin: 28px 0px 91px;
+  line-height: 16px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.right {
+  padding: 13px 17px 13px 17.08px;
+  font-weight: 700;
+  color: #565f82;
+  box-shadow: 0px 5px 15px #6480e8;
+  background: #ffffff;
+}
+
+.left {
+  padding: 13px 8px 13px 9px;
+  font-weight: 500;
+  color: #c7d3ff;
+  border: 1px solid #a0b4ff;
+}
+
+.main-container {
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 118px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-box {
+  flex-flow: row nowrap;
+  margin-left: 2rem;
+}
+
+.left-box {
+  margin-right: 2rem;
+}
+
+.text-top {
+  /* width: 70%; */
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #3d4f9f;
+}
+
+.text-bottom {
+  /* width: 70%; */
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  letter-spacing: 0.03em;
+  color: #8d96bd;
+  align-self: centr;
+  width: 330px;
+  margin-top: 18px;
+}
+
+.input-button {
+}
+
+.input-email {
+  width: 279px;
+  padding: 21px 0px 21px 23px;
+  margin-right: 14px;
+  outline: none;
+  background: #efeff7;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.button-submit {
+  padding: 22px 62px 20px 62px;
+  background: #4d6ce1;
+  box-shadow: 0px 5px 15px rgba(116, 104, 255, 0.2);
+  border-radius: 5px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.footer-container {
+  width: 90%;
+  max-width: 1440px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-container-item {
+  display: flex;
+}
+
+.footer-circle {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  margin: 0px 73px 0px 117px;
+  background: #5e81fe;
+}
+
+.item-ul li {
+  display: inline;
+  margin-right: 42px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #697ca6;
+  text-shadow: 0px 0px 5px #e6e6e6;
+}
+
+.social-icons {
+  width: 28px;
+  height: 30px;
+  background: url("./sprites/sprites.png");
+  display: inline-flex;
+  margin-right: 37.58px;
+  cursor: pointer;
+}
+
+.icon-facebook {
+  background-position: -21px -17px;
+}
+
+.icon-telegramm {
+  background-position: -150px -17px;
+}
+
+.icon-twitter {
+  background-position: -542px -83px;
+}
+
+.icon-m {
+  background-position: -608px -147px;
+}
+
+.footer-button {
+  display: flex;
+  justify-content: flex-end;
+}
+.button-ridht {
+  display: flex;
+  justify-content: center;
+  width: 113px;
+  height: 43px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  align-items: center;
+  text-align: center;
+  color: #3a79ff;
+  background: #d2e1ff;
+  border-radius: 2px;
+  margin-right: 117px;
+}
+
+.down {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #aeb8d0;
+}
